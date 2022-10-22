@@ -1,0 +1,66 @@
+.showcase {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/showcase-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.classes-card {
+  min-width: 14rem;
+}
+.classes {
+  background-color: #e5e5e5;
+}
+@media (min-width: 768px) {
+  .showcase {
+    padding-bottom: 10rem !important;
+  }
+  .img-box {
+    max-width: 20rem;
+  }
+}
+
+.showcase__container {
+  margin-top: 8rem !important;
+}
+
+.img-box img {
+  display: block;
+}
+
+.get-active__img-box-2 {
+  margin-top: -7rem;
+  margin-left: 10rem;
+}
+.view-all {
+  background-color: #f8f8f8;
+}
+
+.popular-class {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/popular-class-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 0 !important;
+}
+
+.popular-class__icon {
+  background-color: #f5b257;
+  padding: 1.4rem !important;
+  width: fit-content;
+  border-radius: 50%;
+  max-width: 6rem;
+  margin: 1rem;
+}
+/* .popular-class__card {
+  max-width: 20em !important;
+} */
+.popular-class__pull-up {
+  margin-top: -10rem;
+}
+
+.our-trainers {
+  background: #e5e5e5;
+  padding-block: 4rem !important;
+}
